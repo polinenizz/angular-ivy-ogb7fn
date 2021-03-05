@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { ContactComponent } from "./Contact.Component";
 import { HighlightDirective } from "./highlight.directive";
+import { OddPipe } from './odd.pipe';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -13,7 +14,8 @@ import { HighlightDirective } from "./highlight.directive";
     AppComponent,
     HelloComponent,
     ContactComponent,
-    HighlightDirective
+    HighlightDirective,
+    OddPipe
   ],
   bootstrap: [AppComponent]
 })
